@@ -9,8 +9,6 @@ AllCops:
 
 Metrics/ModuleLength:
   Max: 150
-Metrics/LineLength:
-  Max: 150
 Metrics/MethodLength:
   Include: ["app/controllers/*"]
   Max: 20
@@ -39,6 +37,8 @@ Style/ConditionalAssignment:
 
 Layout/AlignHash:
   EnforcedColonStyle: key
+Layout/LineLength:
+  Max: 150
 Layout/ExtraSpacing:
   AllowForAlignment: false
 Layout/MultilineMethodCallIndentation:

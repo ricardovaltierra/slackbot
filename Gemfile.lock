@@ -52,19 +52,26 @@ GEM
       multi_xml (>= 0.5.2)
     i18n (1.7.1)
       concurrent-ruby (~> 1.0)
+    imgur2 (1.2.1)
     launchy (2.4.3)
       addressable (~> 2.3)
     mime-types (3.3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2019.1009)
+    mini_portile2 (2.4.0)
     minitest (5.13.0)
     multi_xml (0.6.0)
     multipart-post (2.1.1)
     nio4r (2.5.2)
+    nokogiri (1.10.7)
+      mini_portile2 (~> 2.4.0)
     oj (3.10.0)
+    phantomjs (2.1.1.0)
     public_suffix (4.0.3)
     puma (4.3.1)
       nio4r (~> 2.0)
+    screencap (0.1.4)
+      phantomjs
     slack-ruby-bot (0.12.0)
       hashie
       slack-ruby-client (>= 0.14.0)
@@ -82,6 +89,8 @@ GEM
     websocket-driver (0.7.1)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.4)
+    wolfram (0.2.1)
+      nokogiri (>= 1.4.3)
     zeitwerk (2.2.2)
 
 PLATFORMS
@@ -92,8 +101,11 @@ DEPENDENCIES
   dotenv
   giphy
   httparty
+  imgur2
   puma
+  screencap
   slack-ruby-bot
+  wolfram
 
 BUNDLED WITH
    1.17.2

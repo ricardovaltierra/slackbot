@@ -1,19 +1,21 @@
 module MbRuby
   class Bot < SlackRubyBot::Bot    
     help do
-      title 'My Ruby Bot'
-      desc 'This office bot, which will hepl you as an office assistant'
+      title 'About me'
+      desc 'Bot for searching purposes. Ask for something that you would usually google to get it fast'
       
-      command :are you there? do
+      command :are_you_there? do
         title 'are you there?'
         desc "Welcome command, to recieve you properly :)"
-        long_desc "Welcome command, gives you a brief explanation of how can you interact with the bot"
+        long_desc "\n\nI'll give you a brief explanation of how can you interact with me"
       end
 
-      command :Could you please? do
+      command :Could_you_please? do
         title 'Could you please'
-        desc "Begin a sentence with this words to ask something"
-        long_desc "Begin a sentence to ask to the bot "
+        desc "Ask me..."
+        long_desc "\n\nBegin a sentence to ask me something like: 'Could you please tell me the distance between" + 
+        " Earth and Sun?' \n\nOr: Could you please tell me what time is on Paris?" + 
+        "\n\nPlease avoid personal questions. I refuse to guess."
       end
     end
   end

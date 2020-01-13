@@ -7,85 +7,21 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
       zeitwerk (~> 2.2)
-    addressable (2.7.0)
-      public_suffix (>= 2.0.2, < 5.0)
-    celluloid (0.17.4)
-      celluloid-essentials
-      celluloid-extras
-      celluloid-fsm
-      celluloid-pool
-      celluloid-supervision
-      timers (>= 4.1.1)
-    celluloid-essentials (0.20.5)
-      timers (>= 4.1.1)
-    celluloid-extras (0.20.5)
-      timers (>= 4.1.1)
-    celluloid-fsm (0.20.5)
-      timers (>= 4.1.1)
-    celluloid-io (0.17.3)
-      celluloid (>= 0.17.2)
-      nio4r (>= 1.1)
-      timers (>= 4.1.1)
-    celluloid-pool (0.20.5)
-      timers (>= 4.1.1)
-    celluloid-supervision (0.20.6)
-      timers (>= 4.1.1)
     concurrent-ruby (1.1.5)
     dotenv (2.7.5)
-    eventmachine (1.2.7)
     faraday (0.17.3)
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.13.1)
       faraday (>= 0.7.4, < 1.0)
-    faraday_middleware-parse_oj (0.3.2)
-      faraday (~> 0.9)
-      faraday_middleware (>= 0.9.1, < 1.0)
-      oj (>= 2.0, < 4.0)
-    faye-websocket (0.10.9)
-      eventmachine (>= 0.12.0)
-      websocket-driver (>= 0.5.1)
-    giphy (3.0.0)
-      faraday (~> 0.9)
-      faraday_middleware (~> 0.9)
-      faraday_middleware-parse_oj (~> 0.3)
-      launchy (~> 2.4)
     gli (2.19.0)
     hashie (4.0.0)
-    httparty (0.17.3)
-      mime-types (~> 3.0)
-      multi_xml (>= 0.5.2)
     i18n (1.7.1)
       concurrent-ruby (~> 1.0)
-    iex-ruby-client (1.1.0)
-      faraday (>= 0.9)
-      faraday_middleware
-      hashie
-      money_helper
-    imgur2 (1.2.1)
-    launchy (2.4.3)
-      addressable (~> 2.3)
-    mime-types (3.3.1)
-      mime-types-data (~> 3.2015)
-    mime-types-data (3.2019.1009)
     mini_portile2 (2.4.0)
     minitest (5.13.0)
-    money (6.13.7)
-      i18n (>= 0.6.4, <= 2)
-    money_helper (1.0.2)
-      activesupport
-      money (~> 6.5)
-    multi_xml (0.6.0)
     multipart-post (2.1.1)
-    nio4r (2.5.2)
     nokogiri (1.10.7)
       mini_portile2 (~> 2.4.0)
-    oj (3.10.0)
-    phantomjs (2.1.1.0)
-    public_suffix (4.0.3)
-    puma (4.3.1)
-      nio4r (~> 2.0)
-    screencap (0.1.4)
-      phantomjs
     slack-ruby-bot (0.12.0)
       hashie
       slack-ruby-client (>= 0.14.0)
@@ -97,7 +33,6 @@ GEM
       hashie
       websocket-driver
     thread_safe (0.3.6)
-    timers (4.3.0)
     tzinfo (1.2.6)
       thread_safe (~> 0.1)
     websocket-driver (0.7.1)
@@ -111,15 +46,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  celluloid-io
   dotenv
-  faye-websocket
-  giphy
-  httparty
-  iex-ruby-client
-  imgur2
-  puma
-  screencap
   slack-ruby-bot
   wolfram
 

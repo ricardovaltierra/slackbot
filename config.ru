@@ -6,4 +6,4 @@ Dotenv.load
 
 require 'wolfram'
 require 'mb_ruby/bot'
-MbRuby::App.instance.run
+MbRuby::Bot.instance.run

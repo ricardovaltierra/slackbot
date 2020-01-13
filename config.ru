@@ -1,4 +1,5 @@
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 
-require 'mb_ruby'
+require 'slack-ruby-bot'
+require 'mb_ruby/bot'
 MbRuby::App.instance.run

@@ -1,14 +1,5 @@
-require 'slack-ruby-bot'
-require 'dotenv'
-Dotenv.load
-require 'wolfram'
-Wolfram.appid= ENV["WOLFRAM_APPID"]
-require 'uri'
-require 'http'
-require 'json'
-require 'mechanize'
-require 'screencap'
-require 'imgur2'
+
+
 
 module MbRuby
   class App < SlackRubyBot::App
@@ -16,7 +7,7 @@ module MbRuby
 
   class WFSearch < SlackRubyBot::Commands::Base
 
-    command 'Could' do |client, data, _match|
+    command 'Could you please' do |client, data, _match|
 
       q = _match[:expression]
       result = Wolfram::Query.new(q).fetch

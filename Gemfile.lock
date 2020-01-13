@@ -32,6 +32,7 @@ GEM
       timers (>= 4.1.1)
     concurrent-ruby (1.1.5)
     dotenv (2.7.5)
+    eventmachine (1.2.7)
     faraday (0.17.3)
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.13.1)
@@ -40,6 +41,9 @@ GEM
       faraday (~> 0.9)
       faraday_middleware (>= 0.9.1, < 1.0)
       oj (>= 2.0, < 4.0)
+    faye-websocket (0.10.9)
+      eventmachine (>= 0.12.0)
+      websocket-driver (>= 0.5.1)
     giphy (3.0.0)
       faraday (~> 0.9)
       faraday_middleware (~> 0.9)
@@ -52,6 +56,11 @@ GEM
       multi_xml (>= 0.5.2)
     i18n (1.7.1)
       concurrent-ruby (~> 1.0)
+    iex-ruby-client (1.1.0)
+      faraday (>= 0.9)
+      faraday_middleware
+      hashie
+      money_helper
     imgur2 (1.2.1)
     launchy (2.4.3)
       addressable (~> 2.3)
@@ -60,6 +69,11 @@ GEM
     mime-types-data (3.2019.1009)
     mini_portile2 (2.4.0)
     minitest (5.13.0)
+    money (6.13.7)
+      i18n (>= 0.6.4, <= 2)
+    money_helper (1.0.2)
+      activesupport
+      money (~> 6.5)
     multi_xml (0.6.0)
     multipart-post (2.1.1)
     nio4r (2.5.2)
@@ -99,8 +113,10 @@ PLATFORMS
 DEPENDENCIES
   celluloid-io
   dotenv
+  faye-websocket
   giphy
   httparty
+  iex-ruby-client
   imgur2
   puma
   screencap

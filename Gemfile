@@ -8,3 +8,10 @@ gem 'slack-ruby-bot'
 gem 'dotenv'
 gem 'wolfram'
 
+#rspec dependencies
+group :development, :test do
+  gem 'rack-test'
+  gem 'rspec'
+  gem 'vcr'
+  gem 'webmock'
+end

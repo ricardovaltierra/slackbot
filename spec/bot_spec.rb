@@ -1,10 +1,22 @@
-require 'slack-ruby-bot/rspec'
+require 'spec_helper'
 
-describe SlackRubyBot::Commands do
-  it 'responds with any message' do
-    expect(message: "#{SlackRubyBot.config.user} hi").to respond_with_slack_message
+describe SlackRubyBot::App do
+  def app
+    SlackRubyBot::App.new
   end
-  it 'says hi' do
-    expect(message: "#{SlackRubyBot.config.user} hi").to respond_with_slack_message('hi')
+  it_behaves_like 'a slack ruby bot'
+
+  describe '.instance' do
+    it 'creates an instance of the App subclass' do
+      klass = Class.new(SlackRubyBot::App)
+      expect(klass.instance.class).to be klass
+    end
+  end
+
+  describe 'executable' do
+    it 'can be required as a dependency' do
+      response = system("ruby -e \"Bundler = nil ; require 'slack-ruby-bot'\"")
+      expect(response).to be true
+    end
   end
 end

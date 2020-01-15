@@ -52,18 +52,18 @@ Contributions are more than welcome!<br/>Feel free to check [issues page](http:/
 4. Push (git push origin [branch_name])
 5. Create a PR
 
-## 🤖 contributor
+## 🤖 Contributor
 
 riacrdo valtierra - [GitHub](https://github.com/ricardovaltierra)
 
 
 
-## 🙋‍♂ support :)
+## 🙋‍♂ Support :)
 
 Give a ⭐️ if you liked it!
 
 
 
-## 📝 license
+## 📝 License
 
 This project is under the [MIT](LICENSE) license.

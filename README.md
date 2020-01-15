@@ -1,7 +1,7 @@
 Slackbot
 ==============
 
-Microverse Capstone Project consisting a bot deveolped to interact with Slack users on a given Workspace. Build yours!
+Microverse Capstone Project consisting on a bot deveolped to interact with Slack users on a given Workspace. Build yours!
 
 ## What it does?
 It allows you to make a quick search by asking your bot without leaving Slack. Some example questions may be:

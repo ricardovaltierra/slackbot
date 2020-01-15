@@ -54,7 +54,7 @@ Contributions are more than welcome!<br/>Feel free to check [issues page](http:/
 
 ## 🤖 Contributor
 
-riacrdo valtierra - [GitHub](https://github.com/ricardovaltierra)
+ricardo valtierra - [GitHub](https://github.com/ricardovaltierra)
 
 
 

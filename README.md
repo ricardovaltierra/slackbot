@@ -1,7 +1,7 @@
 Slackbot
 ==============
 
-Microverse Capstone Project which consist of a bot deveolped to interact with Slack users on a given Workspace. Build yours!
+Microverse Capstone Project consisting a bot deveolped to interact with Slack users on a given Workspace. Build yours!
 
 ## What it does?
 It allows you to make a quick search by asking your bot without leaving Slack. Some example questions may be:
@@ -16,9 +16,9 @@ But if you try something he may not know:
 ## How it works?
 The Bot is working based upon the following resources:
 
-- [Slack-Ruby-Bot](github.com/slack-ruby/slack-ruby-bot#slack-ruby-bot)
-- [Slack API](api.slack.com)
-- [Wolfram API](account.wolfram.com/wolframid)
+- [Slack-Ruby-Bot](https://github.com/slack-ruby/slack-ruby-bot#slack-ruby-bot)
+- [Slack API](http://api.slack.com)
+- [Wolfram API](http://account.wolfram.com/wolframid)
 
 And powered by:
 

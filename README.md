@@ -27,6 +27,6 @@ And powered by:
 - YML
 
 ## Usage
-### Step 1: clone and install dependencies
+### Step 1: Clone and install dependencies
 
 

@@ -44,7 +44,7 @@ Also feel free to play with the code for some commands, like changing responses 
 
 ## 🤝 Contributing
 
-Contributions are more than welcome!<br/>feel free to check [issues page](http://github.com/ricardovaltierra/slackbot/issues/).
+Contributions are more than welcome!<br/>Feel free to check [issues page](http://github.com/ricardovaltierra/slackbot/issues/).
 
 1. Fork (https://github.com/ricardovaltierra/slackbot/development/fork)
 2. Create your working branch (git checkout -b [branch_name])

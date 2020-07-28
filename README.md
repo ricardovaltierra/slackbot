@@ -1,10 +1,10 @@
 Slackbot
 ==============
 
-Microverse Capstone Project consisting on a bot deveolped to interact with Slack users on a given Workspace. Build yours!
+Slack bot developed on official Wolfram and Slack API's resources to interact on a given workspace and make questions like weather, location places and more.
 
 ## What it does?
-It allows you to make a quick search by asking your bot without leaving Slack. Some example questions may be:
+It allows you to make a quick web query by asking your bot without leaving Slack. Some example questions may be:
 
 ![Example question 1](img/question_1.gif)
 

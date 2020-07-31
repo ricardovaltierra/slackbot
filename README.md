@@ -35,7 +35,9 @@ It allows you to make a quick web query by asking your bot without leaving Slack
 
 ## Preview
 
-<img src="img/question_1.gif" data-canonical-src="img/question_1.gif" width="314"/>  <img src="img/question_2.gif" data-canonical-src="img/question_2.gif" width="314"/>  <img src="img/question_3.gif" data-canonical-src="img/question_3.gif" width="314"/>
+<img src="img/question_1.gif" data-canonical-src="img/question_1.gif" width="314"/>
+<img src="img/question_2.gif" data-canonical-src="img/question_2.gif" width="314"/>
+<img src="img/question_3.gif" data-canonical-src="img/question_3.gif" width="314"/>
 
 Feel free to use and recommend it.
 

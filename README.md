@@ -1,69 +1,106 @@
-Slackbot
-==============
+# Slackbot
+
+> Microverse Ruby Capstone Project
+
+<p align="right">
+  <br>
+  <a href="https://github.com/ricardovaltierra/slackbot">Explore the repo »</a>
+  <br>
+  <a href="https://github.com/ricardovaltierra/slackbot/issues">Request Feature</a>
+</p>
+
+## Table of Contents
+
+* [About the Project](#about-the-project)
+
+* [Preview](#preview)
+
+* [Built With](#built-with)
+
+* [Getting Started](#getting-started)
+
+* [How it Works](#how-it-works)
+
+* [Contributing](#contributing)
+
+* [Contact](#contact)
+
+* [MIT License](#mit-license)
+
+## About The Project
 
 Slack bot developed on official Wolfram and Slack API's resources to interact on a given workspace and make questions like weather, location places and more.
 
-## What it does?
-It allows you to make a quick web query by asking your bot without leaving Slack. Some example questions may be:
+It allows you to make a quick web query by asking your bot without leaving Slack.
 
-![Example question 1](img/question_1.gif)
+## Preview
 
-![Example question 2](img/question_2.gif)
+<img src="img/question_1.gif" data-canonical-src="img/question_1.gif" width="400"/>
 
-But if you try something he may not know:
-![Example question 3](img/question_3.gif)
+<img src="img/question_2.gif" data-canonical-src="img/question_2.gif" width="400"/>
 
-## How it works?
-The Bot is working  on top of the following resources:
+<img src="img/question_3.gif" data-canonical-src="img/question_3.gif" width="400"/>
 
-- [Slack-Ruby-Bot](https://github.com/slack-ruby/slack-ruby-bot#slack-ruby-bot)
-- [Slack API](http://api.slack.com)
-- [Wolfram API](https://account.wolfram.com/auth/sign-in)
+Feel free to use and recommend it.
 
-And powered by:
+## Built With
 
-- Ruby
-- Slack
-- YML
+* [Ruby =< 2.6.5](https://www.ruby-lang.org/en/)
 
-## Usage
+* [YAML](https://yaml.org/)
+
+* [Slack-Ruby-Bot](https://github.com/slack-ruby/slack-ruby-bot#slack-ruby-bot)
+
+* [Slack API](http://api.slack.com)
+
+* [Wolfram API](https://account.wolfram.com/auth/sign-in)
+
+## Getting Started
+
+To get a local copy up and running follow these simple steps.
+
+Clone or fork the <a href="https://github.com/ricardovaltierra/slackbot">repo</a> [git@github.com:ricardovaltierra/slackbot.git]
+
+## How it Works
+
 ### Step 1: Clone and install dependencies
+
 Clone the repo and run `bundle install` to get all the gems on your terminal.
+
 ### Step 2: Get your tokens for Slack & Wolfram APIs
+
 You will have to register on [WolframID](http://account.wolfram.com/wolframid) and [Slack Bot Integration](http://slack.com/services/new/bot) to get your access tokens (for a register tutorial on Slack and Wolfram click [here](TUTORIAL.md)). Once that done just paste on your `.env` file. 
+
 ### Step 3: Add your bot to a channel and run
+
 You're almost done with code part. Now just execute with `rackup` and have fun! Above are some examples, but feel free to see description of each command with '@your_bot's_name are you there?' or '@your_bot's_name help'
 
-![Command description 1](img/question.gif)
+<img src="img/question.gif" data-canonical-src="img/question.gif" width="400"/>
 
-![Command description 2](img/help_are_you_there.gif)
+<img src="img/help_are_you_there.gif" data-canonical-src="img/help_are_you_there.gif" width="400"/>
 
-![Command description 3](img/help_could_you_please.gif)
+<img src="img/help_could_you_please.gif" data-canonical-src="img/help_could_you_please.gif" width="400"/>
 
 Also feel free to play with the code for some commands, like changing responses or adding them on `bot.rb`
+    
+## Contributing
 
-## 🤝 Contributing
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-Contributions are more than welcome!<br/>Feel free to check [issues page](http://github.com/ricardovaltierra/slackbot/issues/).
+1. Fork the Project
 
-1. Fork (https://github.com/ricardovaltierra/slackbot/development/fork)
-2. Create your working branch (git checkout -b [branch_name])
-3. Commit your changes (git commit -am 'what you will add or fix or improve')
-4. Push (git push origin [branch_name])
-5. Create a PR
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
 
-## 🤖 Contributor
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 
-ricardo valtierra - [GitHub](https://github.com/ricardovaltierra)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
 
+5. Open a Pull Request
 
+## Contact
 
-## 🙋‍♂ Support :)
+Ricardo Valtierra - [@RicardoValtie15](https://twitter.com/RicardoValtie15) - ricardo_valtierra@outlook.com  - [linkedin.com/in/ricardovaltierra/](https://www.linkedin.com/in/ricardovaltierra/)
 
-Give a ⭐️ if you liked it!
-
-
-
-## 📝 License
+## MIT License
 
 This project is under the [MIT](LICENSE) license.
